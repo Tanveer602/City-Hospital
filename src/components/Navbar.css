@@ -1,0 +1,141 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 15px 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+/* ===== Logo Area ===== */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+  margin-left: -20px;
+  
+}
+
+.logo-box {
+  background-color: white;
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo-box:hover {
+  transform: scale(1.05);
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* ===== Links ===== */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: all 0.3s ease;
+}
+
+.nav-links span {
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.nav-links span:hover {
+  color: #0d6efd;
+  transform: translateY(-2px);
+}
+
+/* ===== Hamburger (Mobile Icon) ===== */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: rgba(230, 230, 250, 0.648);
+  transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
+}
+
+/* ===== Responsive Navbar ===== */
+@media (max-width: 798px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    padding: 12px 25px;
+  }
+
+  .logo-box {
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #007bff;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 15px 0;
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links.active {
+    display: flex;
+    animation: slideDown 0.3s ease-in-out;
+  }
+
+  .nav-links span {
+    color: white;
+    font-size: 1.1rem;
+  }
+}
+
+/* ===== Animation ===== */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
