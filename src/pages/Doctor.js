@@ -24,10 +24,10 @@ function DoctorsSection() {
 
         <div className="doctor-card">
           <img
-            src="https://images.pexels.com/photos/5215013/pexels-photo-5215013.jpeg"
+            src="https://media.istockphoto.com/id/1806608544/photo/portrait-of-a-female-doctor-at-the-workplace.jpg?s=612x612&w=0&k=20&c=MARkttlfJ1JoAxKffrmXxbI_rIPJTKWaKTrFv1qwCZc="
             alt="Doctor"
           />
-          <h3>Dr. Ayesha Khan</h3>
+          <h3>Dr. Sara Malik</h3>
           <p>Cardiologist</p>
           <h6>7+ years</h6>
         </div>
@@ -48,7 +48,7 @@ function DoctorsSection() {
             alt="Doctor"
           />
           <h3>Dr. Ahmed Ali</h3>
-          <p>Orthopedic Surgeon</p>
+          <p>Orthopedic </p>
           <h6>6+ years</h6>
         </div>
       </div>

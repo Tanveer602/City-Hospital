@@ -202,7 +202,7 @@ h1, h2, h3 {
 
 /* ===== Doctor Cards ===== */
 .doctor-card {
-  background: #f8fafc;
+  background: rgba(128, 128, 128, 0.514);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -228,12 +228,14 @@ h1, h2, h3 {
   font-size: 1.8rem;
   font-weight: 900;
   margin-bottom: -10px;
+  margin-right: 40px;
   color: #111;
 }
 
 .doctor-card p {
   font-size: 1.5rem;
-  color: #0d6efd;
+  color:rgb(18, 31, 173);
+  margin-right: 108px;
   margin-bottom: -35px;
   font-weight: 500;
 }
@@ -242,15 +244,17 @@ h1, h2, h3 {
 
 .doctor-card h6 {
   font-size: 1.4rem;
-  color: #777;
+  color: rgba(0, 0, 0, 0.783);
   margin-bottom: 30px;
+  margin-right: 140px;
 }
 
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .doctors-section h2 {
-    font-size: 2rem;
+      font-size: 2.8rem;
+    font-weight: 900;
   }
 
   .doctor-grid {
@@ -387,15 +391,14 @@ h1, h2, h3 {
 
 /* ===== Success Message ===== */
 .success-message {
-  background: #d4fdd4;
-  border-left: 4px solid #2ecc71;
+  
   z-index: 1000;
   display: flex;
   padding: 12px 15px;
   border-radius: 8px;
   margin-bottom: 25px;
   font-weight: 600;
-  color: #1a7c2c;
+  
   white-space: pre-line;
   animation: fadeIn 0.4s ease-in-out;
 }
@@ -500,7 +503,7 @@ h1, h2, h3 {
 
 /* ====== Individual Service Cards ====== */
 .service-card {
-   background: #f8faff;
+   background: #0d6dfde4;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
@@ -508,8 +511,8 @@ h1, h2, h3 {
 }
 
 .service-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  box-shadow: 0 22px 35px rgb(7, 127, 232);
   background: #0d6efd;
   color: #fff;
 }
@@ -521,38 +524,35 @@ h1, h2, h3 {
   transition: color 0.3s;
 }
 
-.service-card:hover .service-icon {
+.service-card .service-icon {
   color: #fff;
 }
 
 .service-card h3 {
   font-size: 1.5rem;
-  font-weight: 650;
-  margin-bottom: 10px;
+  font-weight: 800;
+  margin-bottom: 20px;
   color: #111;
   
 }
 
-.service-card:hover h3{
-  color: black;
-  font-weight: 800;
 
- }
 
 .service-card p {
   font-size: 1.1rem;
-  color: #555555fd;
+  
   line-height: 1.4;
 }
 
-.service-card:hover p {
+.service-card p {
   color: #e8e8e8;
 }
 
 /* ====== Responsive ====== */
 @media (max-width: 768px) {
   .services-section h2 {
-    font-size: 2rem;
+    font-size: 2.8rem;
+    font-weight: 900;
   }
 
   .services-grid {
@@ -561,7 +561,7 @@ h1, h2, h3 {
 
   .service-card {
     margin: 0 auto;
-    width: 90%;
+    width: 85%;
   }
 }
 
@@ -640,7 +640,8 @@ h1, h2, h3 {
 @media (max-width: 768px) {
 
 .patients-section h2 {
-    font-size: 2rem;
+     font-size: 2.8rem;
+    font-weight: 900;
   }
 
   .patients-grid {
@@ -798,7 +799,8 @@ h1, h2, h3 {
   }
 
   .appointment-section h2 {
-    font-size: 1.8rem;
+      font-size: 2.8rem;
+    font-weight: 900;
   }
 
   .section-desc {
@@ -908,14 +910,22 @@ h1, h2, h3 {
   max-width: 500px;
   min-width: 320px;
   background: #fff;
-  padding: 35px 30px;
+  padding: 35px 0px;
   border-radius: 18px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   text-align: left;
 }
 
+
+.contact-info h5 {
+  margin-left: 20px;
+  color: #111;
+  font-size: 15px;
+}
+
 .contact-info h3 {
   font-size: 2rem;
+  margin-left: 10px;
   
   font-weight: 800;
   color: #0d6efd;
@@ -929,9 +939,9 @@ h1, h2, h3 {
 }
 
 .contact-info p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #444;
-  margin: 9px 0;
+  margin: 11px 0;
 }
 
 /* Info Item */
@@ -949,7 +959,7 @@ h1, h2, h3 {
 }
 
 .inline-icon {
-  color: #0d6efd;
+  color: rgb(26, 177, 223);
   margin-right: 7px;
 }
 
@@ -1032,12 +1042,13 @@ h1, h2, h3 {
 @media (max-width: 1024px) {
   .contact-form {
     max-width: 460px;
-    padding: 28px 22px;
+    padding: 38px 12px;
     
   }
 
   .contact-form h3 {
-    font-size: 1.8rem;
+      font-size: 2.8rem;
+    font-weight: 900;
   }
 }
 
@@ -1053,6 +1064,8 @@ h1, h2, h3 {
     gap: 35px !important;   /* Boxes ke beech space */
     margin-top: 30px;
     text-align: center;
+    margin-left: 9px;
+    
   }
 
   .contact-info,
@@ -1232,6 +1245,7 @@ h1, h2, h3 {
 
   .doctor-card {
     width: 100%;
+   margin-left: -20px;
   }
 
   .services-grid {
@@ -1245,7 +1259,7 @@ h1, h2, h3 {
   }
 
   .card {
-    width: 90%;
+    width: 100%;
   }
 
   .navbar .nav-links span {

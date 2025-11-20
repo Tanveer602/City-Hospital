@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaRegClock, } from "react-icons/fa";
 
 function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -33,16 +33,16 @@ function Contact() {
         {/* Contact Info */}
         <div className="contact-info">
           <h3>Get In Touch</h3>
-          <p>Reach out to our nearest branch or send us a message directly.</p>
+          <h5>Reach out to our nearest branch or send us a message directly.</h5>
 
           <div className="info-item">
             <FaMapMarkerAlt className="info-icon" />
             <div>
               <h4>Karachi Branch</h4>
-              <p> <span>📍</span> - Main Karachi-Centeral Road, Karachi</p>
+              <p><FaMapMarkerAlt  className="inline-icon" />D.H.A. Phase 8,Khayaban-e-Ittehad Road, Karachi</p>
               <p><FaPhoneAlt className="inline-icon" /> +92 300 1112233</p>
               <p><FaEnvelope className="inline-icon" /> karachi@cityhospital.com</p>
-              <p>⏰   24/7 Emergency | Mon-Sun: 8AM-11.59PM</p>
+              <p> <FaRegClock className="inline-icon" />  24/7 Emergency | Mon-Sun: 8AM-1AM</p>
             </div>
           </div>
 
@@ -50,10 +50,10 @@ function Contact() {
             <FaMapMarkerAlt className="info-icon" />
             <div>
               <h4>Lahore Branch</h4>
-              <p> <span>📍</span> - Gulberg III, Ferozepur Road, Lahore</p>
+              <p> <FaMapMarkerAlt  className="inline-icon" />  Gulberg III, Ferozepur Road, Lahore</p>
               <p><FaPhoneAlt className="inline-icon" /> +92 301 2223344</p>
               <p><FaEnvelope className="inline-icon" /> lahore@cityhospital.com</p>
-               <p>⏰   24/7 Emergency | Mon-Sun: 8AM-11PM</p>
+               <p><FaRegClock className="inline-icon" />   24/7 Emergency | Mon-Sun: 8AM-11PM</p>
             </div>
           </div>
 
@@ -61,10 +61,10 @@ function Contact() {
             <FaMapMarkerAlt className="info-icon" />
             <div>
               <h4>Islamabad Branch</h4>
-              <p> <span>📍</span> - Blue Area, Jinnah Avenue, Islamabad</p>
+              <p> <FaMapMarkerAlt  className="inline-icon" />  Blue Area, Jinnah Avenue, Islamabad</p>
               <p><FaPhoneAlt className="inline-icon" /> +92 302 3334455</p>
               <p><FaEnvelope className="inline-icon" /> islamabad@cityhospital.com</p>
-               <p>⏰   24/7 Emergency | Mon-Sun: 8AM-10PM</p>
+               <p><FaRegClock className="inline-icon" />   24/7 Emergency | Mon-Sun: 8AM-10PM</p>
             </div>
           </div>
         </div>

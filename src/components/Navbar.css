@@ -69,7 +69,7 @@
 /* ===== Hamburger (Mobile Icon) ===== */
 .hamburger {
   display: none;
-  font-size: 28px;
+  font-size: 22px;
   cursor: pointer;
   color: rgba(230, 230, 250, 0.648);
   transition: transform 0.3s ease;
