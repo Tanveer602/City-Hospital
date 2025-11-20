@@ -86,7 +86,7 @@ h1, h2, h3 {
 
 
   .hero h1 {
-    font-size: 3.9rem;
+    font-size: 4.9rem;
     font-weight: 900;
     
   }
@@ -97,7 +97,7 @@ h1, h2, h3 {
 
   .hero button {
     padding: 10px 25px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -112,11 +112,11 @@ h1, h2, h3 {
   }
 
   .hero h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 25px;
   }
 
@@ -133,7 +133,7 @@ h1, h2, h3 {
   }
 
   .hero h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     margin-bottom: 10px;
   }
 
@@ -225,7 +225,7 @@ h1, h2, h3 {
 }
 
 .doctor-card h3 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 900;
   margin-bottom: -10px;
   margin-right: 40px;
@@ -1256,8 +1256,12 @@ h1, h2, h3 {
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
+
+
+
+
 
   .card {
     width: 100%;
