@@ -17,7 +17,7 @@ function DoctorsSection() {
             src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600"
             alt="Doctor"
           />
-          <h3>Dr. Fahad Ali</h3>
+          <h3>Dr. Ali Hamza</h3>
           <p>Neurologist</p>
           <h6>12+ years</h6>
         </div>
@@ -27,7 +27,7 @@ function DoctorsSection() {
             src="https://media.istockphoto.com/id/1806608544/photo/portrait-of-a-female-doctor-at-the-workplace.jpg?s=612x612&w=0&k=20&c=MARkttlfJ1JoAxKffrmXxbI_rIPJTKWaKTrFv1qwCZc="
             alt="Doctor"
           />
-          <h3>Dr. Sara Malik</h3>
+          <h3>Dr. Sara Malik </h3>
           <p>Cardiologist</p>
           <h6>7+ years</h6>
         </div>
