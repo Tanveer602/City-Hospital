@@ -54,11 +54,38 @@ const Footer = () => {
           <p>--- Karachi, Lahore, Islamabad ---</p>
 
           <div className="footer-social">
-            <FaFacebookF className="social-icon" />
-            <FaTwitter className="social-icon" />
-            <FaInstagram className="social-icon" />
-            <FaLinkedin className="social-icon" />
-          </div>
+  <a
+    href="https://www.facebook.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaFacebookF className="social-icon" />
+  </a>
+
+  <a
+    href="https://twitter.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaTwitter className="social-icon" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/yourpage"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaInstagram className="social-icon" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/tanveer-ahmed-501239321/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin className="social-icon" />
+  </a>
+</div>
         </div>
 
       </div>

@@ -38,6 +38,7 @@ function Footer() {
             <FaFacebook />
             <FaInstagram />
             <FaTwitter />
+            
           </div>
         </div>
       </div>
